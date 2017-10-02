@@ -1,79 +1,78 @@
-# Создается https://www.gitignore.io/api/c++,cmake, например,окна,visualstudiocode
+# Created by https://www.gitignore.io/api/c++,cmake,windows,visualstudiocode
 
-### С++ ###
-# Предпосылок
-*.д
+### C++ ###
+# Prerequisites
+*.d
 
-Скомпилированные объектные файлы # 
-*.сло
-*.ло
-*.о
-*.параметр obj
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
 
-# Предкомпилированные Заголовки
-*.гч
-*.ПЧ
-*.exe
+# Precompiled Headers
+*.gch
+*.pch
 
-# Компиляции динамической библиотеки
-*.так
-*.dylib нужна
-*.длл
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
 
-# Модуль фортран файлов
-*.мод
+# Fortran module files
+*.mod
 *.smod
 
-# Скомпилированные статические библиотеки
-*.лай
-*.ла
-*.а
-*.либ
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
 
-# Экзешники
-*.ехе
-*.из
-*.приложение
+# Executables
+*.exe
+*.out
+*.app
 
-### Х ###
+### CMake ###
 CMakeCache.txt
 CMakeFiles
 CMakeScripts
-Тестирование
-Файл makefile
-cmake_install.с cmake
+Testing
+Makefile
+cmake_install.cmake
 install_manifest.txt
-compile_commands.в json
-CTestTestfile.с cmake
-построить
+compile_commands.json
+CTestTestfile.cmake
+build
 
 ### VisualStudioCode ###
 .vscode/*
-!.vscode/настройки.в json
-!.vscode/задачи.в json
-!.vscode/запуск.в json
-!.vscode/расширения.в json
-.история
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history
 
-### Окна ###
-# ОС Windows кэш эскизов файлов
-Превью.дБ
-ehthumbs.дБ
-ehthumbs_vista.дБ
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
 
-Файл # папке config
-Столе.ини
+# Folder config file
+Desktop.ini
 
-Рециркулирует # Бен используется в файловых
-$РЕЦИРКУЛИРУЕТ.БИН/
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
 
-Файлы # установщик Windows
-*.такси
-*.компания MSI
-*.МСМ
-*.МСП
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
 
-# Сочетания клавиш Windows
-*.лнк
+# Windows shortcuts
+*.lnk
 
-# Конец https://www.gitignore.io/api/c++,cmake, например,окна,visualstudiocode" " 
+# End of https://www.gitignore.io/api/c++,cmake,windows,visualstudiocode
