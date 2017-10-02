@@ -1,0 +1,79 @@
+# Создается https://www.gitignore.io/api/c++,cmake, например,окна,visualstudiocode
+
+### С++ ###
+# Предпосылок
+*.д
+
+Скомпилированные объектные файлы # 
+*.сло
+*.ло
+*.о
+*.параметр obj
+
+# Предкомпилированные Заголовки
+*.гч
+*.ПЧ
+*.exe
+
+# Компиляции динамической библиотеки
+*.так
+*.dylib нужна
+*.длл
+
+# Модуль фортран файлов
+*.мод
+*.smod
+
+# Скомпилированные статические библиотеки
+*.лай
+*.ла
+*.а
+*.либ
+
+# Экзешники
+*.ехе
+*.из
+*.приложение
+
+### Х ###
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Тестирование
+Файл makefile
+cmake_install.с cmake
+install_manifest.txt
+compile_commands.в json
+CTestTestfile.с cmake
+построить
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/настройки.в json
+!.vscode/задачи.в json
+!.vscode/запуск.в json
+!.vscode/расширения.в json
+.история
+
+### Окна ###
+# ОС Windows кэш эскизов файлов
+Превью.дБ
+ehthumbs.дБ
+ehthumbs_vista.дБ
+
+Файл # папке config
+Столе.ини
+
+Рециркулирует # Бен используется в файловых
+$РЕЦИРКУЛИРУЕТ.БИН/
+
+Файлы # установщик Windows
+*.такси
+*.компания MSI
+*.МСМ
+*.МСП
+
+# Сочетания клавиш Windows
+*.лнк
+
+# Конец https://www.gitignore.io/api/c++,cmake, например,окна,visualstudiocode" " 
